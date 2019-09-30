@@ -1,0 +1,9 @@
+input	{
+	width: 10%;
+	border-radius: 30px;
+}
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+	width: 300px;
+}

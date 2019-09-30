@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<link rel="stylesheet" href="style.css">
+		<h1>Bit Academy Sign Up</h1>
+		<title>Bit Academy Sign Up</title>	
+	<form action= "#"> 
+		<label for="name">Naam</label>
+		<p> </p>
+		<input type="text" id="name" name="name" required
+       minlength="4" maxlength="30" size="12">
+		<p> </p>
+	   <label for="email">Email</label>
+	   	<p> </p>
+		<input type="email" id="email" name="name" required
+       minlength="4" maxlength="50" size="12">
+	   <p> </p>
+	   <label for="tnumber">Telefoonnummer</label>
+		<p> </p>
+		<input type="number" id="tnumber" name="name" pattern="\d{4}" required
+       minlength="10" maxlength="10" size="12">
+	   <p> </p>
+	   <label for="pin">Pincode</label>
+	   <p> </p>
+	   <input type="password" id="pin" name="name" required
+       minlength="4" maxlength="4" size="12" pattern="\d{4}" required>
+	   <label for="provincie">Provincie</label>
+
+		<select id="provincie">
+			<option value="">--Please choose an option--</option>
+			<option value="drenthe">Drenthe</option>
+			<option value="flevoland">Flevoland</option>
+			<option value="friesland">Friesland</option>
+			<option value="gelderland">Gelderland</option>
+			<option value="groningen">Groningen</option>
+			<option value="limburg">Limburg</option>
+			<option value="noord-brabant">Noord-Brabant</option>
+			<option value="noord-holland">Noord-Holland</option>
+			<option value="overijsel">Overijsel</option>
+			<option value="utrecht">Utrecht</option>
+			<option value="zeeland">Zeeland</option>
+			<option value="zuid-holland">Zuid-Holland</option>
+		</select>
+	   <p> </p>
+			<p>Houd je van voetbal:</p>
+
+				<div>
+	<input type="radio" id="ja" name="ja" value="ja"
+         checked>
+	<label for="ja">Ja</label>	
+	<input type="radio" id="nee" name="nee" value="nee">
+	<label for="nee">Nee</label>
+	</div>
+	<p>Favoriete dagen in de week:</p>
+
+		<div>
+			<input type="checkbox" id="maandag" name="maandag"
+         checked>
+			<label for="maandag">Maandag</label>
+		</div>
+
+		<div>
+			<input type="checkbox" id="dinsdag" name="disndag">
+			<label for="disndag">Dinsdag</label>
+		</div>
+		<div>
+			<input type="checkbox" id="woensdag" name="woensdag">
+			<label for="woensdag">Woensdag</label>
+		</div>
+		<div>
+			<input type="checkbox" id="donderdag" name="donderdag">
+			<label for="donderdag">Donderdag</label>
+		</div>
+		<div>
+			<input type="checkbox" id="vrijdag" name="vrijdag">
+			<label for="vrijdag">Vrijdag</label>
+		</div>
+		<div>
+			<input type="checkbox" id="zaterdag" name="zaterdag">
+			<label for="zaterdag">Zaterdag</label>
+		</div>
+		<div>
+			<input type="checkbox" id="zondag" name="zondag">
+			<label for="zondag">Zondag</label>
+		</div>
+		<input name="submit" id="submit" type="submit" value="Subscribe!";>
+	</form>
+	<script src="script.js"></script>
+	</body>
+</html>
